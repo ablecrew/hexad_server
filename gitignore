@@ -1,0 +1,36 @@
+# Environment & Secrets
+.env
+.env.*
+!.env.example
+
+# Virtual Environment
+venv/
+.venv/
+env/
+
+# Python Bytecode & Caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local SQLite Database & Data Exports
+db.sqlite3
+db.sqlite3-journal
+*.sqlite3
+data.json
+
+# Static & Media Files (generated during build)
+staticfiles/
+media/
+
+# Logs
+*.log
+local_settings.py
+
+# macOS & IDE Files
+.DS_Store
+.vscode/
+.idea/
